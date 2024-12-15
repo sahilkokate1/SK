@@ -1,0 +1,159 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Bazaar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Laptop Bazaar</h1>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+            <a href="postAd.html">Post Ad</a>
+        </nav>
+    </header>
+    <main>
+        <section id="product-list">
+            <h2>Available Laptops</h2>
+            <!-- Product list will be dynamically populated -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Laptop Bazaar</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Laptop Bazaar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Login to Laptop Bazaar</h1>
+    </header>
+    <main>
+        <form id="login-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Laptop Bazaar</p>
+    </footer>
+</body>
+</html>
+
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - Laptop Bazaar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Create an Account - Laptop Bazaar</h1>
+    </header>
+    <main>
+        <form id="signup-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">Signup</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Laptop Bazaar</p>
+    </footer>
+</body>
+</html>
+
+<!-- postAd.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Ad - Laptop Bazaar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Post Your Laptop Ad</h1>
+    </header>
+    <main>
+        <form id="post-ad-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+
+            <label for="image">Upload Image:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+
+            <button type="submit">Post Ad</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Laptop Bazaar</p>
+    </footer>
+</body>
+</html>
+
+<!-- productDetails.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Laptop Bazaar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Details</h1>
+    </header>
+    <main>
+        <section id="product-detail">
+            <h2 id="product-title">Product Title</h2>
+            <p id="product-description">Product Description</p>
+            <p id="product-price">Price: $XXX</p>
+            <img id="product-image" src="#" alt="Product Image">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Laptop Bazaar</p>
+    </footer>
+</body>
+</html>
